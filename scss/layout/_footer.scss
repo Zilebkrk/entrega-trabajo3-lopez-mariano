@@ -1,0 +1,18 @@
+.footer {
+    
+    display: flex;
+    justify-content: space-around;
+    background-color:   #101010;
+    border: 1px solid black;
+    margin-top: 1rem;
+
+
+    ul{
+        list-style-type: none;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+}

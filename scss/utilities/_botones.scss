@@ -1,0 +1,19 @@
+.boton-section1 {
+
+    background-color: grey;
+    margin: 0rem 2rem;
+    padding: 0.4rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    
+    a{
+        color: white;
+        text-decoration: none;
+
+    }
+}
+
+.boton-section2 {
+    @extend .boton-section1
+}

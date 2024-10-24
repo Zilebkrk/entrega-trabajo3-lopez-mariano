@@ -1,0 +1,313 @@
+header {
+  text-align: center;
+  background-color: black;
+}
+header img {
+  width: 120px;
+}
+
+nav .contenedor-ul {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid 1px gray;
+}
+nav .contenedor-ul ul {
+  list-style: none;
+}
+nav .contenedor-ul ul a {
+  text-decoration: none;
+  color: white;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+footer {
+  margin-top: auto;
+}
+
+main .contenedor-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(161, 161, 161, 0.2274509804);
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+main .contenedor-menu div.contenedor-titulo-menu {
+  background-color: rgba(255, 255, 255, 0.1803921569);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 1rem;
+  padding: 0.3rem;
+  border-radius: 5px;
+  color: white;
+  filter: drop-shadow(1px 1px 10px rgba(237, 236, 236, 0.6705882353));
+}
+main .contenedor-menu section {
+  background-color: rgba(161, 161, 161, 0.2274509804);
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 5px 5px 15px;
+}
+main .contenedor-menu section div.contenedor-texto, main .contenedor-menu section div.contenedor-texto3, main .contenedor-menu section div.contenedor-texto2 {
+  color: white;
+  padding: 1rem;
+  background-color: #7b7b7b;
+  margin: 1rem;
+  border-radius: 5px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #101010;
+  border: 1px solid black;
+  margin-top: 1rem;
+}
+.footer ul {
+  list-style-type: none;
+}
+.footer ul a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  main .contenedor-menu {
+    width: 704px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  main .contenedor-menu section div.contenedor-menu1, main .contenedor-menu section div.contenedor-menu3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 250px);
+  }
+  main section div.contenedor-cajas-horarios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  main section div.contenedor-acerca-de {
+    width: 736px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 540px) {
+  div.contenedor-cartas, div.contenedor-carta2 {
+    width: 532px;
+    margin: 3rem auto;
+  }
+  div.titulo-main-index {
+    width: 521px;
+    margin: 3rem auto;
+  }
+}
+main section .contenedor-titulo {
+  display: flex;
+  justify-content: center;
+}
+main section .contenedor-titulo .caja-titulo-reservation {
+  width: 265px;
+  margin: 0 auto;
+  color: white;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 0.3rem 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1803921569);
+  text-align: center;
+  filter: drop-shadow(1px 1px 10px rgba(237, 236, 236, 0.6705882353));
+}
+main section .contenedor-titulo .caja-titulo-reservation h1 {
+  font-size: 25px;
+}
+main section .contenedor-titulo .caja-titulo-reservation h3 {
+  font-size: 15px;
+}
+main section div.container-reserva div.caja-reserva {
+  width: 265px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: rgba(161, 161, 161, 0.2274509804);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.376);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main section div.container-reserva div.caja-reserva div:nth-child(1) {
+  padding: 1rem;
+}
+main section div.container-reserva div.caja-reserva div:nth-child(2) {
+  padding: 1rem;
+}
+main section div.container-reserva div.caja-reserva div:nth-child(3) {
+  padding: 1rem;
+}
+main section div.boton-reserva {
+  width: 39.55px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+main section div.boton-reserva button {
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background-color: rgba(161, 161, 161, 0.2274509804);
+  color: white;
+}
+
+main section div.caja-acerca-de-titulo {
+  background-color: rgba(255, 255, 255, 0.1803921569);
+  text-align: center;
+  margin: 1rem;
+  border-radius: 5px;
+  padding: 1rem;
+  color: white;
+}
+main section div.contenedor-texto-img {
+  box-shadow: 5px 5px 15px black;
+  border-radius: 5px;
+  text-align: justify;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(161, 161, 161, 0.2274509804);
+}
+main section div.contenedor-texto-img div.contenedor-acerca-de-img {
+  text-align: center;
+}
+main section div.contenedor-texto-img div.contenedor-acerca-de-img img {
+  border-radius: 5px;
+  width: 300px;
+  margin-bottom: 3rem;
+}
+
+main section div.contenedor-tittle {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem;
+}
+main section div.contenedor-tittle div.caja-titlle-horarios {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1803921569);
+  text-align: center;
+  filter: drop-shadow(1px 1px 10px rgba(237, 236, 236, 0.6705882353));
+  margin: 1rem;
+  border-radius: 5px;
+  padding: 1rem;
+}
+main section div.contenedor div.cajas-horarios {
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  margin: 1rem;
+  background-color: rgba(161, 161, 161, 0.2274509804);
+}
+main section div.contenedor div.cajas-horarios img {
+  width: 50px;
+}
+main section div.contenedor div.cajas-horarios ul {
+  list-style-type: none;
+}
+
+div.contenedor-texto-section1, div.contenedor-texto-section2 {
+  color: white;
+  font-size: 1rem;
+  margin-top: 0.3rem;
+  padding-top: 2rem;
+  padding: 0.6rem;
+}
+div.contenedor-texto-section1 .favorita:nth-child(1), div.contenedor-texto-section2 .favorita:nth-child(1) {
+  font-size: 1rem;
+}
+div.contenedor-texto-section1 h3, div.contenedor-texto-section2 h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+div.contenedor-texto-section1 div:nth-child(3), div.contenedor-texto-section2 div:nth-child(3) {
+  padding-top: 1rem;
+}
+
+div.contenedor-cartas, div.contenedor-carta2 {
+  border-radius: 5px;
+  background-color: rgba(161, 161, 161, 0.2274509804);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  justify-content: center;
+}
+
+img {
+  padding-top: 1rem;
+  width: 120px;
+  border-radius: 5px;
+}
+
+main .titulo-main-index {
+  filter: drop-shadow(1px 1px 10px rgba(237, 236, 236, 0.6705882353));
+  border-radius: 5px;
+  background-color: rgba(161, 161, 161, 0.2274509804);
+}
+main .titulo-main-index h2 {
+  text-align: center;
+  padding: 1rem;
+  margin: 3rem auto;
+  color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  div.contenedor-absoluto {
+    display: flex;
+  }
+  div.contenedor-cartas, div.contenedor-carta2 {
+    width: 450px;
+    margin: 3rem auto;
+  }
+  div.contenedor-texto-section1 div:nth-child(4), div.contenedor-texto-section2 div:nth-child(4) {
+    margin-bottom: 4rem;
+  }
+}
+.boton-section1, .boton-section2 {
+  background-color: grey;
+  margin: 0rem 2rem;
+  padding: 0.4rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.boton-section1 a, .boton-section2 a {
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=css.css.map */

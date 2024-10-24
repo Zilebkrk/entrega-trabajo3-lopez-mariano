@@ -1,0 +1,29 @@
+
+
+div.contenedor-cartas{
+
+    border-radius: 5px  ;
+    background-color: #a1a1a13a;    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    justify-content: center;
+
+    
+    
+}
+img {
+    padding-top: 1rem;
+    width: 120px;
+    border-radius: 5px;
+}
+
+
+
+
+
+.contenedor-carta2{
+    @extend .contenedor-cartas
+}
+
